@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+.user-details{
+    cursor:pointer;
+}
+.form-container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.profile_name{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin-right: 5px;
+}
+.login{
+    margin:5px;
+    text-decoration: none;
+    color: white;
+}
